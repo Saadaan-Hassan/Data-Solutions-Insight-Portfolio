@@ -20,7 +20,7 @@ function Carousel() {
   const data = [
     {
       img: img1,
-      title: "Best CCTV & Security Solution For You",
+      title: "Best Data Solutions For You",
       description:
         "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.",
       btn1: "Read More",
@@ -29,7 +29,7 @@ function Carousel() {
 
     {
       img: img2,
-      title: "Smart Security Solution For All Business",
+      title: "Smart Solution Insights For All Business",
       description:
         "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.",
       btn1: "Read More",
