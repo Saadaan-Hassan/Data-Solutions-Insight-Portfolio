@@ -3,7 +3,10 @@ import quote from "../assets/quote.jpg";
 
 function Quote() {
   return (
-    <div className='container-fluid bg-light overflow-hidden my-5 px-lg-0'>
+    <div
+      id='contact'
+      className='container-fluid bg-light overflow-hidden my-5 px-lg-0'
+    >
       <div className='container quote px-lg-0'>
         <div className='row g-0 mx-lg-0'>
           <div className='col-lg-6 ps-lg-0' style={{ minHeight: "400px" }}>
@@ -27,9 +30,9 @@ function Quote() {
               ></div>
               <h1 className='display-5 mb-5'>Free Quote</h1>
               <p className='mb-4 pb-2'>
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo erat amet
+                Reach out to Data Solution Insights today for a complimentary,
+                personalized quote tailored to your data analytics and
+                engineering needs.
               </p>
               <form>
                 <div className='row g-3'>

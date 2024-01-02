@@ -17,10 +17,8 @@ function Features() {
                 style={{ width: "60px", height: "2px" }}
               ></div>
               <h1 className='display-5 mb-5'>Why Choose Us</h1>
-              <p className='mb-4 pb-2'>
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo erat amet
+              <p className='mb-4 pb-2' style={{textAlign: "justify"}}>
+              At Data Solution Insights, we stand out for our deep expertise in advanced data tools like Power BI, Tableau, and Sigma Computing. Our approach combines cutting-edge technology with personalized service, ensuring that each solution is tailored to your unique business needs. Choose us for our commitment to excellence, our innovative analytics strategies, and our dedication to transforming data into tangible business value.
               </p>
               <div className='row g-4'>
                 <div className='col-6'>

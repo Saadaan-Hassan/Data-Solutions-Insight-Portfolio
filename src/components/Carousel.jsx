@@ -20,28 +20,24 @@ function Carousel() {
   const data = [
     {
       img: img1,
-      title: "Best Data Solutions For You",
+      title: "Transforming Data into Actionable Intelligence",
       description:
-        "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.",
-      btn1: "Read More",
+        "Discover the art of insightful decision-making with Data Solution Insights. We expertly convert complex data into actionable intelligence, fueling strategic business growth.",
       btn2: "Free Quote",
     },
-
     {
       img: img2,
-      title: "Smart Solution Insights For All Business",
+      title: "Charting Your Path Through Data Complexity",
       description:
-        "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.",
-      btn1: "Read More",
+        "Data Solution Insights navigates the intricate maze of data, simplifying complexities into clear, actionable insights. Our expertise lights the way for businesses to harness the full potential of their data.",
       btn2: "Free Quote",
     },
 
     {
       img: img3,
-      title: "Innovative Solution For Security System",
+      title: "Pioneering Data Analysis for Tomorrow's Solutions",
       description:
-        "Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.",
-      btn1: "Read More",
+        "At the forefront of data innovation, Data Solution Insights offers cutting-edge analysis to craft solutions for tomorrow's challenges. We merge analytical prowess with foresight, shaping the future of data-driven decision-making.",
       btn2: "Free Quote",
     },
   ];
@@ -64,25 +60,20 @@ function Carousel() {
               <div className='carousel-inner'>
                 <div className='container'>
                   <div className='row justify-content-center'>
-                    <div className='col-12 col-lg-8 text-center'>
-                      <h1 className='display-3 text-white animated slideInDown mb-4'>
+                    <div className='col-12 col-lg-9 text-center'>
+                      <h1 className='display-3 text-theme-primary animated slideInDown mb-4 capitalize fs-1 fw-semibold'>
                         {item.title}
                       </h1>
-                      <p className='fs-5 text-white mb-4 pb-2'>
+                      <p className='fs-5 text-white mb-4 pb-2 fw-light'>
                         {item.description}
                       </p>
-                      <a
-                        href='#'
-                        className='btn btn-primary border-0 rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft'
-                      >
-                        {item.btn1}
-                      </a>
-                      <a
-                        href='#'
-                        className='btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight'
+
+                      {/* <a
+                        href='#contact'
+                        className='btn btn-primary border-0 rounded-pill py-md-3 px-md-5 animated slideInRight'
                       >
                         {item.btn2}
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>

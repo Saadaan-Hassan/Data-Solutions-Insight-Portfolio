@@ -1,10 +1,13 @@
 import React from "react";
-import {Users, UploadCloud} from 'lucide-react'
-import about from '../assets/about.jpg'
+import { Users, UploadCloud } from "lucide-react";
+import about from "../assets/about.jpg";
 
 function About() {
   return (
-    <div className='container-fluid bg-light overflow-hidden my-5 px-lg-0'>
+    <div
+      id='about'
+      className='container-fluid bg-light overflow-hidden my-5 px-lg-0'
+    >
       <div className='container about px-lg-0'>
         <div className='row g-0 mx-lg-0'>
           <div className='col-lg-6 ps-lg-0' style={{ minHeight: "400px" }}>
@@ -27,10 +30,32 @@ function About() {
                 style={{ width: "60px", height: "2px" }}
               ></div>
               <h1 className='display-5 mb-4'>About Us</h1>
-              <p className='mb-4 pb-2' style={{textAlign:'justify'}}>
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo erat amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem illum veniam magni maiores itaque, ipsam inventore minus totam voluptas a quas tempore, consectetur voluptatum in iste rerum harum quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe praesentium possimus labore. Voluptatem quibusdam natus laborum deleniti nulla eum amet?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus cum placeat nobis consectetur perferendis pariatur cupiditate repudiandae vel commodi ducimus, quia eligendi, laboriosam, dolorum nisi mollitia esse cumque dolore necessitatibus! Facilis magnam quasi cupiditate? In illo asperiores ut eum delectus!
+              <p style={{ textAlign: "justify" }}>
+                Welcome to Data Solution Insights. Our company is the
+                collaborative brainchild of expert data analysts and engineers,
+                committed to transforming complex data into actionable business
+                intelligence. We specialize in a broad spectrum of data
+                analytics and engineering services, from predictive modeling to
+                data visualization, tailored to empower your business decisions.
+              </p>
+              <p style={{ textAlign: "justify" }}> 
+                Our team, comprised of seasoned professionals from diverse
+                industries, brings a depth of knowledge and innovative
+                problem-solving skills. We prioritize a collaborative approach,
+                working closely with clients to understand their unique
+                challenges and objectives. This ensures customized, impactful
+                solutions that drive growth and efficiency.
+              </p>
+              <p style={{ textAlign: "justify" }}> 
+                At Data Solution Insights, we uphold the highest standards of
+                data integrity and confidentiality. We recognize the
+                significance of trust and privacy in our client relationships
+                and are dedicated to securing all data we handle.
+              </p>
+              <p className='mb-4 pb-2' style={{ textAlign: "justify" }}>
+                Join us on a journey where data becomes your most strategic
+                asset, illuminating new opportunities and guiding your business
+                towards a data-driven future.
               </p>
               <div className='row g-4 mb-4 pb-3'>
                 <div className='col-sm-6 wow fadeIn' data-wow-delay='0.1s'>
@@ -39,7 +64,7 @@ function About() {
                       className='btn-square bg-white rounded-circle'
                       style={{ width: "64px", height: "64px" }}
                     >
-                      <Users className="text-theme-primary" size={40}/>
+                      <Users className='text-theme-primary' size={40} />
                     </div>
                     <div className='ms-4'>
                       <h2 className='mb-1' data-toggle='counter-up'>
@@ -57,7 +82,7 @@ function About() {
                       className='btn-square bg-white rounded-circle'
                       style={{ width: "64px", height: "64px" }}
                     >
-                      <UploadCloud className="text-theme-primary" size={40}/>
+                      <UploadCloud className='text-theme-primary' size={40} />
                     </div>
                     <div className='ms-4'>
                       <h2 className='mb-1' data-toggle='counter-up'>
@@ -70,9 +95,12 @@ function About() {
                   </div>
                 </div>
               </div>
-              <a href='' className='btn btn-primary border-0 rounded-pill py-3 px-5'>
+              {/* <a
+                href=''
+                className='btn btn-primary border-0 rounded-pill py-3 px-5'
+              >
                 Explore More
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

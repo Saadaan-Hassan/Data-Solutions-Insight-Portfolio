@@ -84,14 +84,14 @@ function Footer() {
             </a>
           </div> */}
           <div className='w-75 mx-auto'>
-            <h5 className='text-light mb-4 text-center'>Sing Up For Newsletter</h5>
+            <h5 className='text-light mb-4 text-center'>Sign Up For Newsletter</h5>
             <p>
               Contact Us and let us know if you have any questions. Don't forget
               to subscribe for more awesome stuff by typing mail below.
             </p>
             <div className='position-relative w-100'>
               <input
-                className='form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5'
+                className='form-control text-white bg-transparent border-secondary w-100 py-3 ps-4 pe-5'
                 type='text'
                 placeholder='Your email'
               />

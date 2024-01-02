@@ -12,43 +12,43 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
+      title: "MattressFirm & Cold-Water Creek",
       description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
       image: portfolio1,
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
-      image: portfolio2,
-    },
-    {
-      id: 3,
-      title: "Project 3",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
-      image: portfolio3,
-    },
-    {
-      id: 4,
-      title: "Project 4",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
-      image: portfolio4,
-    },
-    {
-      id: 5,
-      title: "Project 5",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
-      image: portfolio5,
-    },
-    {
-      id: 6,
-      title: "Project 6",
+      title: "KaDeWe & CPO",
       description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
       image: portfolio6,
     },
+    {
+      id: 3,
+      title: "Noor Bank",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
+      image: portfolio5,
+    },
+    // {
+    //   id: 4,
+    //   title: "Project 4",
+    //   description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
+    //   image: portfolio4,
+    // },
+    // {
+    //   id: 5,
+    //   title: "Project 5",
+    //   description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
+    //   image: portfolio5,
+    // },
+    // {
+    //   id: 6,
+    //   title: "Project 6",
+    //   description: "lorem ipsum dolor sit amet consectetur adipisicing elit ",
+    //   image: portfolio6,
+    // },
   ];
   return (
-    <div className='container-xxl py-5'>
+    <div id="project" className='container-xxl py-5'>
       <div className='container'>
         <div className='text-center wow fadeInUp' data-wow-delay='0.1s'>
           <div
@@ -83,11 +83,11 @@ function Projects() {
                 <img className='img-fluid w-100' src={project.image} alt='' style={{aspectRatio: '16/10'}}/>
                 <div className='text-center p-4'>
                   <p className='text-theme-primary mb-2'>{project.title}</p>
-                  <h5 className='lh-base mb-0'>{project.description}</h5>
+                  {/* <h5 className='lh-base mb-0'>{project.description}</h5> */}
                 </div>
                 <div className='portfolio-text text-center bg-white p-4'>
                   <p className='text-theme-primary mb-2'>{project.title}</p>
-                  <h5 className='lh-base mb-3'>{project.description}</h5>
+                  {/* <h5 className='lh-base mb-3'>{project.description}</h5> */}
                   <div className='d-flex justify-content-center'>
                     <a
                       className='btn btn-square btn-primary border-0 rounded-circle mx-1'

@@ -5,23 +5,23 @@ function Facts() {
   const data = [
     {
       icon: <Database className='text-theme-primary' />,
-      title: "Home Security",
+      title: "Analytics Meets Engineering",
       description:
-        "Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et",
+        "At Data Solution Insights, we merge analytics with engineering, creating solutions that redefine business intelligence. Our approach turns data complexity into strategic success.",
     },
 
     {
       icon: <BarChart3 className='text-theme-primary' />,
-      title: "Access Control",
+      title: "Engineering Data, Crafting Futures",
       description:
-        "Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et",
+        "Data Solution Insights engineers data to craft the future of business. We combine analytical depth with engineering precision to drive innovation and informed decision-making.",
     },
 
     {
       icon: <PencilRuler className='text-theme-primary' />,
-      title: "24/7 Support",
+      title: "Data Precision, Business Vision",
       description:
-        "Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et",
+        "Blending data analytics with engineering insight, we at Data Solution Insights craft precision-driven business strategies. Our expertise transforms data into visionary solutions for future success.",
     },
   ];
   return (
@@ -46,13 +46,18 @@ function Facts() {
                   >
                     {item.icon}
                   </div>
-                  <h1 className='display-1 mb-0' style={{ color: "#000000" }}>
+                  <h1 className='display-1 mb-0 text-secondary'>
                     0{index + 1}
                   </h1>
                 </div>
                 <h5 className='text-white'>{item.title}</h5>
                 <hr className='w-25' />
-                <span className='text-secondary'>{item.description}</span>
+                <span
+                  className='text-secondary'
+                  style={{ textAlign: "justify" }}
+                >
+                  {item.description}
+                </span>
               </div>
             </div>
           ))}

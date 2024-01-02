@@ -6,27 +6,27 @@ function Services() {
     {
       icon: <BarChart2 className='text-theme-primary' size={50} />,
       title: "Power BI Services",
-      text: "Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem",
+      text: "Transforming raw data into dynamic, insightful dashboards with Power BI expertise.",
     },
     {
       icon: <Computer className='text-theme-primary' size={50} />,
       title: "Tableau Desktop",
-      text: "Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem",
+      text: "Crafting compelling data visualizations and analytics using Tableau Desktop.",
     },
     {
       icon: <Server className='text-theme-primary' size={50} />,
       title: "Tableau Server",
-      text: "Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem",
+      text: "Empowering teams with collaborative, server-based data solutions via Tableau.",
     },
     {
       icon: <Cpu className='text-theme-primary' size={50} />,
       title: "Sigma Computing",
-      text: "Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem",
+      text: "Leveraging Sigma Computing for advanced, user-friendly data analysis and reporting.",
     },
   ];
 
   return (
-    <div className='container-xxl py-5'>
+    <div id='service' className='container-xxl py-5'>
       <div className='container'>
         <div className='text-center'>
           <div
@@ -49,11 +49,7 @@ function Services() {
                   {item.icon}
                 </div>
                 <h4 className='mb-3'>{item.title}</h4>
-                <p className='mb-4'>{item.text}</p>
-                {/* <a className='btn' href=''>
-                  <ArrowRight className='text-white me-2'/>
-                  <span className="">Read More</span>
-                </a> */}
+                <p className='mb-4' >{item.text}</p>
               </div>
             </div>
           ))}

@@ -3,8 +3,7 @@ import Slider from "react-slick";
 
 import testimonial1 from "../assets/testimonial/testimonial-1.jpg";
 import testimonial2 from "../assets/testimonial/testimonial-2.jpg";
-import testimonial3 from "../assets/testimonial/testimonial-3.jpg"
-
+import testimonial3 from "../assets/testimonial/testimonial-3.jpg";
 
 // function Testimonial() {
 //   return (
@@ -76,24 +75,21 @@ function Testimonial() {
 
   const testimonials = [
     {
-      text:
-        "Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.",
-      name: 'Client Name 1',
-      profession: 'Profession 1',
+      text: "Data Solution Insights transformed our data handling capabilities. Their expertise in Power BI made our data analysis more intuitive and insightful.",
+      name: "Emily Davis",
+      profession: "Marketing Director",
       image: testimonial1,
     },
     {
-      text:
-        "Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.",
-      name: 'Client Name 2',
-      profession: 'Profession 2',
-      image:  testimonial2,
+      text: "The team at Data Solution Insights provided exceptional service. Their work with Tableau brought our data visualization to a whole new level.",
+      name: "Robert Moore",
+      profession: "Business Strategy Manager:",
+      image: testimonial2,
     },
     {
-      text:
-        "Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.",
-      name: 'Client Name 3',
-      profession: 'Profession 3',
+      text: "Choosing Data Solution Insights was a game-changer for us. Their innovative approach and use of Sigma Computing dramatically improved our reporting process.",
+      name: "Michael Johnson",
+      profession: "IT Project Manager",
       image: testimonial3,
     },
   ];
@@ -104,16 +100,23 @@ function Testimonial() {
         <div className='text-center wow fadeInUp' data-wow-delay='0.1s'>
           <div
             className='bg-theme-primary mb-3 mx-auto'
-            style={{ width: '60px', height: '2px' }}
+            style={{ width: "60px", height: "2px" }}
           ></div>
           <h1 className='display-5 mb-5'>Testimonial</h1>
         </div>
-        <Slider {...testimonialSettings} className='testimonial-carousel wow fadeInUp' data-wow-delay='0.1s'>
+        <Slider
+          {...testimonialSettings}
+          className='testimonial-carousel wow fadeInUp'
+          data-wow-delay='0.1s'
+        >
           {testimonials.map((testimonial, index) => (
             <div key={index} className='testimonial-item text-center'>
-
               <p className='fs-5'>{testimonial.text}</p>
-              <img className='img-fluid rounded-circle mx-auto my-4' src={testimonial.image} alt='' />
+              <img
+                className='img-fluid rounded-circle mx-auto my-4'
+                src={testimonial.image}
+                alt=''
+              />
               <h4>{testimonial.name}</h4>
               <span className='text-primary'>{testimonial.profession}</span>
             </div>

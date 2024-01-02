@@ -26,10 +26,10 @@ function App() {
       <Services />
       <Features />
       <Projects />
-      <Quote />
-      <Team />
+      {/* <Quote /> */}
+      {/* <Team /> */}
       <Testimonial />
-      <Footer />
+      {/* <Footer /> */}
 
       {/* Copyright Start */}
       <div className='container-fluid py-4' style={{ background: "#000000" }}>
