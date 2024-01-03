@@ -60,11 +60,11 @@ function Carousel() {
               <div className='carousel-inner'>
                 <div className='container'>
                   <div className='row justify-content-center'>
-                    <div className='col-12 col-lg-9 text-center'>
+                    <div className='col-12 col-lg-10 text-center'>
                       <h1 className='display-3 text-theme-primary animated slideInDown mb-4 capitalize fs-1 fw-semibold'>
                         {item.title}
                       </h1>
-                      <p className='fs-5 text-white mb-4 pb-2 fw-light'>
+                      <p className='fs-5 text-white mb-4 pb-2 fw-light w-75 mx-auto'>
                         {item.description}
                       </p>
 
