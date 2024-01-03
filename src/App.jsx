@@ -28,7 +28,7 @@ function App() {
       <Projects />
       {/* <Quote /> */}
       {/* <Team /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <Footer /> */}
 
       {/* Copyright Start */}
@@ -38,7 +38,7 @@ function App() {
             <div className='col-md-6 text-center text-md-start mb-3 mb-md-0'>
               &copy;{" "}
               <a className='border-bottom text-decoration-none' href='#'>
-                Data Solution Insight
+                Data Solutions Insight
               </a>
               , All Right Reserved.
             </div>
