@@ -68,7 +68,7 @@ function About() {
                     </div>
                     <div className='ms-4'>
                       <h2 className='mb-1' data-toggle='counter-up'>
-                        1234
+                        20
                       </h2>
                       <p className='fw-medium text-theme-primary mb-0'>
                         Happy Clients
@@ -86,7 +86,7 @@ function About() {
                     </div>
                     <div className='ms-4'>
                       <h2 className='mb-1' data-toggle='counter-up'>
-                        1234
+                        12
                       </h2>
                       <p className='fw-medium text-theme-primary mb-0'>
                         Projects Done
