@@ -30,7 +30,7 @@ function Quote() {
               ></div>
               <h1 className='display-5 mb-5'>Free Quote</h1>
               <p className='mb-4 pb-2'>
-                Reach out to Data Solution Insights today for a complimentary,
+                Reach out to Data Solutions Insight today for a complimentary,
                 personalized quote tailored to your data analytics and
                 engineering needs.
               </p>

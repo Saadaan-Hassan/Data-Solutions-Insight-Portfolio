@@ -31,7 +31,7 @@ function About() {
               ></div>
               <h1 className='display-5 mb-4'>About Us</h1>
               <p style={{ textAlign: "justify" }}>
-                Welcome to Data Solution Insights. Our company is the
+                Welcome to Data Solutions Insight. Our company is the
                 collaborative brainchild of expert data analysts and engineers,
                 committed to transforming complex data into actionable business
                 intelligence. We specialize in a broad spectrum of data
@@ -47,7 +47,7 @@ function About() {
                 solutions that drive growth and efficiency.
               </p>
               <p style={{ textAlign: "justify" }}> 
-                At Data Solution Insights, we uphold the highest standards of
+                At Data Solutions Insight, we uphold the highest standards of
                 data integrity and confidentiality. We recognize the
                 significance of trust and privacy in our client relationships
                 and are dedicated to securing all data we handle.

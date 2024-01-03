@@ -75,19 +75,19 @@ function Testimonial() {
 
   const testimonials = [
     {
-      text: "Data Solution Insights transformed our data handling capabilities. Their expertise in Power BI made our data analysis more intuitive and insightful.",
+      text: "Data Solutions Insight transformed our data handling capabilities. Their expertise in Power BI made our data analysis more intuitive and insightful.",
       name: "Emily Davis",
       profession: "Marketing Director",
       image: testimonial1,
     },
     {
-      text: "The team at Data Solution Insights provided exceptional service. Their work with Tableau brought our data visualization to a whole new level.",
+      text: "The team at Data Solutions Insight provided exceptional service. Their work with Tableau brought our data visualization to a whole new level.",
       name: "Robert Moore",
       profession: "Business Strategy Manager:",
       image: testimonial2,
     },
     {
-      text: "Choosing Data Solution Insights was a game-changer for us. Their innovative approach and use of Sigma Computing dramatically improved our reporting process.",
+      text: "Choosing Data Solutions Insight was a game-changer for us. Their innovative approach and use of Sigma Computing dramatically improved our reporting process.",
       name: "Michael Johnson",
       profession: "IT Project Manager",
       image: testimonial3,

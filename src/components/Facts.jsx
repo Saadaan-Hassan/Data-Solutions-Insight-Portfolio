@@ -7,21 +7,21 @@ function Facts() {
       icon: <Database className='text-theme-primary' />,
       title: "Analytics Meets Engineering",
       description:
-        "At Data Solution Insights, we merge analytics with engineering, creating solutions that redefine business intelligence. Our approach turns data complexity into strategic success.",
+        "At Data Solutions Insight, we merge analytics with engineering, creating solutions that redefine business intelligence. Our approach turns data complexity into strategic success.",
     },
 
     {
       icon: <BarChart3 className='text-theme-primary' />,
       title: "Engineering Data, Crafting Futures",
       description:
-        "Data Solution Insights engineers data to craft the future of business. We combine analytical depth with engineering precision to drive innovation and informed decision-making.",
+        "Data Solutions Insight engineers data to craft the future of business. We combine analytical depth with engineering precision to drive innovation and informed decision-making.",
     },
 
     {
       icon: <PencilRuler className='text-theme-primary' />,
       title: "Data Precision, Business Vision",
       description:
-        "Blending data analytics with engineering insight, we at Data Solution Insights craft precision-driven business strategies. Our expertise transforms data into visionary solutions for future success.",
+        "Blending data analytics with engineering insight, we at Data Solutions Insight craft precision-driven business strategies. Our expertise transforms data into visionary solutions for future success.",
     },
   ];
   return (

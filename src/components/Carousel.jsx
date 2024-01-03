@@ -22,14 +22,14 @@ function Carousel() {
       img: img1,
       title: "Transforming Data into Actionable Intelligence",
       description:
-        "Discover the art of insightful decision-making with Data Solution Insights. We expertly convert complex data into actionable intelligence, fueling strategic business growth.",
+        "Discover the art of insightful decision-making with Data Solutions Insight. We expertly convert complex data into actionable intelligence, fueling strategic business growth.",
       btn2: "Free Quote",
     },
     {
       img: img2,
       title: "Charting Your Path Through Data Complexity",
       description:
-        "Data Solution Insights navigates the intricate maze of data, simplifying complexities into clear, actionable insights. Our expertise lights the way for businesses to harness the full potential of their data.",
+        "Data Solutions Insight navigates the intricate maze of data, simplifying complexities into clear, actionable insights. Our expertise lights the way for businesses to harness the full potential of their data.",
       btn2: "Free Quote",
     },
 
@@ -37,7 +37,7 @@ function Carousel() {
       img: img3,
       title: "Pioneering Data Analysis for Tomorrow's Solutions",
       description:
-        "At the forefront of data innovation, Data Solution Insights offers cutting-edge analysis to craft solutions for tomorrow's challenges. We merge analytical prowess with foresight, shaping the future of data-driven decision-making.",
+        "At the forefront of data innovation, Data Solutions Insight offers cutting-edge analysis to craft solutions for tomorrow's challenges. We merge analytical prowess with foresight, shaping the future of data-driven decision-making.",
       btn2: "Free Quote",
     },
   ];
